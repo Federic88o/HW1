@@ -1,0 +1,382 @@
+body{
+  margin: 0px;
+  background-color: antiquewhite;
+}
+#img_Logo{
+  position:absolute;
+  top:5px;
+  left: 10px;
+  height: 50px;
+}
+#Titolo{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+h1{
+  border: 3px solid brown;
+  padding: 20px 20px;
+  border-radius: 40px;
+  color: brown;
+}
+nav{
+  display: flex;
+  justify-content: flex-end;
+  font-family:'Times New Roman', Times, serif;
+  background-color: burlywood;
+  height: 60px;
+}
+#container{
+  display: flex;
+  width: 80%;
+  align-items: center; 
+  justify-content: space-around;
+}
+#Logo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-left: 10px;
+}
+a, .visita{
+  font-size: 20px;
+  text-decoration: none; 
+  color: white;
+  text-align: center;
+}
+a{
+  font-size:15px;
+}
+ul a{
+  color:black;
+}
+.button{
+  padding: 5px 5px;
+  cursor: pointer;
+}
+.button:hover, .visita:hover{
+  background-color: transparent;
+  border: 2px solid brown;
+  background-color: brown;
+  border-radius: 40px;
+}
+#menu_apri{
+  margin-right: 10px;
+  cursor: pointer;
+}
+#menu_chiudi{
+  margin-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#menu_apri div, #menu_chiudi div {
+  width: 25px;
+  height: 3px;
+  background-color: brown;
+  margin: 5px 0;
+}
+
+#Menu_Laterale{
+  width: 200px;
+  height: 200%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: blanchedalmond;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.container_menu{
+  display: flex;
+  justify-content: space-around;
+  height:100px;
+  background-color: burlywood;
+}
+.hidden{
+  display: none;
+}
+
+.container_profilo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+#Profilo img{
+  border-radius: 100%;
+  height:60px;
+  width: 60px;
+  margin-top: 10px;
+}
+#Info_sotto_profilo{
+  text-align: center;
+}
+
+.section{
+  /*height: 50%;*/
+  display: flex;
+  justify-content: flex-start;
+}
+div ul{
+  padding-left: 20px;
+  width: 80%;
+  list-style-type: none;
+}
+
+.lista_razze{
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+li{
+  cursor: pointer;
+}
+.elenco{
+  padding: 10px 10px;
+  color:brown;
+  border-bottom: 1px solid brown;
+  cursor: pointer;
+}
+li a:visited{
+  color:brown;
+}
+.elenco:hover{
+  color: gray;
+}
+
+
+.grey{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*background-color: rgba(128, 128, 128, 0.5); /* Colore grigio con opacità 0.5 */
+  /*pointer-events: none; /* Permette agli elementi sottostanti di essere interagibili */
+}
+
+.sfondo_home{
+  position: absolute;
+  top: 250px;
+  left: 50px;
+  z-index: -1;
+}
+
+form {
+	width: 66%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+article {
+	margin: 20px 0;
+	width: 66%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+#content, select, #submit{
+	border: 2px solid brown;
+	border-radius: 40px;
+}
+#submit{
+	background-color: brown;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+#view {
+  display: flex;
+	flex-wrap: wrap;
+  flex-grow: 1;
+  min-height: 55%;
+	max-height: 300%;
+}
+.space-around{
+  justify-content: space-around;
+}
+#view .container_img {
+	margin: 10px;
+	padding: 10px;
+	width: 275px;  
+	height:350px; 
+	display: flex;
+	flex-direction:column;
+	background-color: burlywood;
+  border-radius: 40px;
+  cursor: pointer;
+}
+#view img {
+	  max-width: 100%;
+	  height: 275px;
+    border-radius: 40px;
+}
+.sposta{
+  margin-left:-20px;
+  margin-bottom: 10px;
+}
+.Sugg{
+  margin-left: auto;
+}
+.preferiti{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.space-between{
+  justify-content: space-between;
+}
+
+#view img.check{
+  width: 40px;
+  height: 40px;
+  padding: 20px 10px;
+}
+
+.voto{
+  width: 55%;
+  height: 52%;
+  border-radius: 40px;
+  text-align: center;
+  border:2px solid brown;
+  margin-top: 5px;
+}
+.invia_voto{
+  border: 2px solid brown;
+	border-radius: 40px;
+  background-color: brown;
+  padding: 3px 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.errore{
+  border: 3px solid red;
+}.err{
+  color:red;
+  font-size:12px;
+}
+.size{
+  padding-top: 5px;
+  font-size:11px;
+}
+.val{
+  font-size: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+  text-align: center;
+  color:brown;
+}
+footer{
+  background-color: burlywood;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+ }
+
+@media (max-width:1000px){
+  #Intestazione{
+      font-size: 15px;
+      margin-top: 20px;
+  }
+  header.art{
+      height: 50%;
+      margin-top: 100px;
+  }
+  .container_titolo{
+      margin-top: 50px;
+      padding: 5px 5px;
+  }
+  footer, a{
+      font-size:13px;
+  }
+  #img_Logo{
+      height:45px;
+  }
+}
+@media (max-width:700px){
+  #Intestazione{
+      font-size: 12px;
+      margin-top: 40px;
+  }
+  header.art{
+      height:40%;
+      margin-top: 140px;
+  }
+  .container_titolo{
+      height: 30%;
+      width: 80%;
+      margin-top: 30px;
+      margin-left: 30px;
+      padding: 0px 0px;
+  }
+  h1{
+    border: 2px solid brown;
+    padding: 10px 10px;
+    font-size:15px;
+  }
+  .size{
+    font-size:8px;
+  }
+  #content{
+    width: 35%;
+  }
+  label{
+    font-size:12px;
+  }
+  .Dog, .Cat{
+    width: 30%;
+  }
+  #submit{
+    margin-top: 5px;
+  }
+  .voto{
+    height: 35%;
+  }
+  .invia_voto{
+    font-size: 10px;
+  }
+  form{
+    margin-top: 10px;
+  }
+}
+@media (max-width:700px){
+  .button, .visita{
+    display:none;
+  }
+  #container{
+    width: 10%;
+  }
+  .Sugg{
+    font-size: 10px;
+  }
+  label{
+    font-size: 13px;
+  }
+  input,#submit{
+    height: 20px;
+  }
+  #view{
+    max-height: 500%;
+  }
+  #view .container_img{
+    width:200px;
+    height: 300px;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  #view img{
+    width: 200px;
+    height: 200px;;
+  }
+  .sfondo_home{
+    display: none;
+  }
+}
